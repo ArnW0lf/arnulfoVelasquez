@@ -23,7 +23,7 @@
 
 ---
 
-## CLASE 1 - Martes 12 nov
+## CLASE 1 - Martes 11 nov
 ### Tema: Investigación de APIs y Selección de Stack
 
 ### EXPOSICIÓN (40%)
@@ -120,7 +120,7 @@ Para cada uno incluir:
 
 ---
 
-## CLASE 2 - Jueves 14 nov
+## CLASE 2 - Jueves 13 nov
 ### Tema: Prototipo de Adaptación con LLM
 
 ### EXPOSICIÓN (40%)
@@ -210,7 +210,7 @@ README.md actualizado
 
 ---
 
-## CLASE 3 - Martes 19 nov
+## CLASE 3 - Martes 18 nov
 ### Tema: Integración con APIs (Meta + LinkedIn)
 
 ### EXPOSICIÓN (40%)
@@ -309,7 +309,7 @@ En `/logs/publications.log` (JSONL):
 
 ---
 
-## CLASE 4 - Jueves 21 nov
+## CLASE 4 - Jueves 20 nov
 ### Tema: Integración Completa (TikTok + WhatsApp + Backend)
 
 ### EXPOSICIÓN (40%)
@@ -345,31 +345,6 @@ En `/logs/publications.log` (JSONL):
 
 **Entregable 3: Backend Central**
 
-**Base de datos:**
-
-```sql
--- posts table
-CREATE TABLE posts (
-  id UUID PRIMARY KEY,
-  title VARCHAR(500) NOT NULL,
-  content TEXT NOT NULL,
-  created_at TIMESTAMP DEFAULT NOW(),
-  status VARCHAR(50) DEFAULT 'draft'
-);
-
--- publications table
-CREATE TABLE publications (
-  id UUID PRIMARY KEY,
-  post_id UUID REFERENCES posts(id),
-  network VARCHAR(50) NOT NULL,
-  adapted_content TEXT,
-  status VARCHAR(50) DEFAULT 'pending',
-  published_at TIMESTAMP,
-  post_url TEXT,
-  error_message TEXT,
-  metadata JSONB
-);
-```
 
 **API REST implementada:**
 
@@ -381,12 +356,6 @@ POST   /api/posts/:id/adapt    - Adaptar contenido (LLM)
 POST   /api/posts/:id/publish  - Publicar en redes
 GET    /api/posts/:id/status   - Ver estado publicaciones
 ```
-
-**Sistema de colas:**
-- Redis configurado
-- Bull/BullMQ o Celery implementado
-- Cola para publicaciones asíncronas
-- Manejo de reintentos
 
 **DEMO EN VIVO:**
 
@@ -424,7 +393,7 @@ docker-compose.yml
 
 ---
 
-## CLASE 5 - Martes 26 nov
+## CLASE 5 - Martes 25 nov
 ### Tema: Portal Web y Sistema Completo
 
 ### EXPOSICIÓN (40%)
@@ -541,7 +510,7 @@ docker-compose.yml
 
 ---
 
-## CLASE 6 - Jueves 28 nov
+## CLASE 6 - Jueves 27 nov
 ### PRESENTACIÓN FINAL
 
 ### PRESENTACIÓN (40% de nota final)
@@ -549,71 +518,71 @@ docker-compose.yml
 
 **Estructura obligatoria:**
 
-**Parte 1: Presentación Técnica (25 min)**
+**Parte 1: Presentación Técnica**
 
-1. **Introducción (3 min)**
+1. **Introducción**
    - Problema que resuelve
    - Objetivos del proyecto
 
-2. **Arquitectura y Tecnologías (7 min)**
+2. **Arquitectura y Tecnologías**
    - Diagrama de arquitectura completo
    - Stack tecnológico y justificación
    - Componentes principales
 
-3. **Componente LLM (5 min)**
+3. **Componente LLM**
    - Modelo utilizado
    - Estrategia de prompts
    - Ejemplo de adaptación
    - Challenges y soluciones
 
-4. **Integraciones con APIs (7 min)**
+4. **Integraciones con APIs**
    - Proceso por plataforma
    - Challenges específicos
    - Rate limits y errores
    - Autenticación
 
-5. **Backend y Orquestación (3 min)**
+5. **Backend y Orquestación**
    - Base de datos
    - Sistema de colas
    - API REST
 
-**Parte 2: Demo en VIVO (20 min)**
+**Parte 2: Demo en VIVO**
 
 **Escenario:** Publicar noticia real en las 5 redes
 
-1. **Ingresar contenido (3 min)**
+1. **Ingresar contenido**
    - Mostrar interfaz
    - Llenar formulario
    - Seleccionar redes
 
-2. **Generar adaptaciones (5 min)**
+2. **Generar adaptaciones**
    - Click en generar
    - Mostrar adaptaciones
    - Explicar diferencias
    - Validaciones
 
-3. **Publicar (2 min)**
+3. **Publicar**
    - Confirmar publicación
    - Ver logs en tiempo real
 
-4. **Verificar publicaciones (8 min)**
+4. **Verificar publicaciones**
    - Facebook: mostrar post
    - Instagram: mostrar post
    - LinkedIn: mostrar post
    - WhatsApp: mostrar mensaje
    - TikTok: mostrar caption
 
-5. **Dashboard (2 min)**
+5. **Dashboard**
    - Ver historial
    - Estados
 
-**Parte 3: Challenges y Aprendizajes (10 min)**
+**Parte 3: Challenges y Aprendizajes**
 - Retos técnicos principales
 - Soluciones implementadas
 - Lecciones aprendidas
 - Mejoras futuras
 
-**Parte 4: Q&A (5 min)**
+**Parte 4: Q&A**
 
 ### CÓDIGO FINAL (20% de nota final)
 
@@ -658,31 +627,6 @@ docker-compose.yml
 ## RESUMEN DE EVALUACIÓN
 
 ### Distribución de Notas
-
-**Clases 1-5 (60% total):**
-- Clase 1: 10%
-- Clase 2: 10%
-- Clase 3: 15%
-- Clase 4: 15%
-- Clase 5: 10%
-
-**Presentación Final (40% total):**
-- Presentación y demo: 20%
-- Código funcional: 15%
-- Documentación: 5%
-
-### Criterios por Clase
-
-**Exposición (40%):**
-- Claridad y organización: 15%
-- Profundidad técnica: 15%
-- Manejo de preguntas: 10%
-
-**Código/Demo (60%):**
-- Funcionalidad: 30%
-- Calidad de código: 15%
-- Demo en vivo: 10%
-- Documentación: 5%
 
 ---
 
