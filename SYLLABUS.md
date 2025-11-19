@@ -1,59 +1,59 @@
-# SYLLABUS - TÛpicos Avanzados
+# SYLLABUS - T√≥picos Avanzados
 ## LLM Applications - Sistema Multi-Red Social
 
-**Universidad:** Universidad AutÛnoma Gabriel RenÈ Moreno (UAGRM)
-**Facultad:** IngenierÌa en Sistemas
+**Universidad:** Universidad Aut√≥noma Gabriel Ren√© Moreno (UAGRM)
+**Facultad:** Ingenier√≠a en Sistemas
 **Semestre:** 2025-02
-**PerÌodo:** 7 de noviembre - 28 de noviembre de 2025
+**Per√≠odo:** 7 de noviembre - 28 de noviembre de 2025
 **Modalidad:** Presencial - Trabajo Individual
 
 ---
 
-## 1. INFORMACI”N GENERAL
+## 1. INFORMACI√ìN GENERAL
 
 ### 1.1 Datos del Curso
-- **Nombre:** TÛpicos Avanzados - LLM Applications
-- **CÛdigo:** [CÛdigo del curso]
-- **CrÈditos:** [N˙mero de crÈditos]
+- **Nombre:** T√≥picos Avanzados - LLM Applications
+- **C√≥digo:** [C√≥digo del curso]
+- **Cr√©ditos:** [N√∫mero de cr√©ditos]
 - **Nivel:** Pregrado Avanzado
-- **Requisitos:** ProgramaciÛn Avanzada, Bases de Datos, Desarrollo Web
+- **Requisitos:** Programaci√≥n Avanzada, Bases de Datos, Desarrollo Web
 
 ### 1.2 Docente
 - **Nombre:** [Nombre del docente]
 - **Email:** [Email institucional]
 - **Horario de consultas:** [Definir]
-- **UbicaciÛn:** [Oficina/Aula]
+- **Ubicaci√≥n:** [Oficina/Aula]
 
 ### 1.3 Horario de Clases
-- **DÌas:** Martes y Jueves
+- **D√≠as:** Martes y Jueves
 - **Horario:** [Definir horario]
 - **Aula:** [Definir aula]
-- **DuraciÛn:** 6 clases + 1 presentaciÛn final
+- **Duraci√≥n:** 6 clases + 1 presentaci√≥n final
 
 ---
 
-## 2. DESCRIPCI”N DEL CURSO
+## 2. DESCRIPCI√ìN DEL CURSO
 
-### 2.1 PropÛsito
+### 2.1 Prop√≥sito
 
-Este curso intensivo de 4 semanas ofrece una experiencia pr·ctica en el desarrollo de aplicaciones con Large Language Models (LLMs). Los estudiantes construir·n un sistema completo de publicaciÛn automatizada en redes sociales, integrando m˙ltiples APIs y tecnologÌas modernas.
+Este curso intensivo de 4 semanas ofrece una experiencia pr√°ctica en el desarrollo de aplicaciones con Large Language Models (LLMs). Los estudiantes construir√°n un sistema completo de publicaci√≥n automatizada en redes sociales, integrando m√∫ltiples APIs y tecnolog√≠as modernas.
 
-### 2.2 JustificaciÛn
+### 2.2 Justificaci√≥n
 
-En el contexto actual, las organizaciones necesitan optimizar su presencia en redes sociales. Este proyecto aborda un problema real: la adaptaciÛn manual de contenido para diferentes plataformas es ineficiente y propensa a errores. Los estudiantes aprender·n a:
+En el contexto actual, las organizaciones necesitan optimizar su presencia en redes sociales. Este proyecto aborda un problema real: la adaptaci√≥n manual de contenido para diferentes plataformas es ineficiente y propensa a errores. Los estudiantes aprender√°n a:
 
 - Aplicar LLMs a problemas reales de negocio
 - Integrar APIs de terceros (Meta, LinkedIn, TikTok, WhatsApp)
 - Desarrollar sistemas full-stack completos
 - Implementar arquitecturas escalables con colas y microservicios
 
-### 2.3 Enfoque PedagÛgico
+### 2.3 Enfoque Pedag√≥gico
 
 **Aprendizaje Basado en Proyectos (ABP):**
-- Proyecto ˙nico que se desarrolla incrementalmente
+- Proyecto √∫nico que se desarrolla incrementalmente
 - Entregables semanales que construyen sobre el anterior
-- Demo y exposiciÛn en cada clase
-- PresentaciÛn final del sistema completo
+- Demo y exposici√≥n en cada clase
+- Presentaci√≥n final del sistema completo
 
 ---
 
@@ -61,24 +61,24 @@ En el contexto actual, las organizaciones necesitan optimizar su presencia en re
 
 ### 3.1 Competencia General
 
-Desarrollar sistemas de software completos que integran Large Language Models y APIs de terceros para resolver problemas reales de automatizaciÛn de contenido en redes sociales.
+Desarrollar sistemas de software completos que integran Large Language Models y APIs de terceros para resolver problemas reales de automatizaci√≥n de contenido en redes sociales.
 
-### 3.2 Competencias EspecÌficas
+### 3.2 Competencias Espec√≠ficas
 
-**C1. IntegraciÛn de LLMs:**
-- DiseÒar prompts efectivos para diferentes contextos
+**C1. Integraci√≥n de LLMs:**
+- Dise√±ar prompts efectivos para diferentes contextos
 - Implementar APIs de LLM (OpenAI, Claude, Ollama)
 - Optimizar respuestas mediante prompt engineering
 - Manejar limitaciones y errores de modelos
 
-**C2. IntegraciÛn de APIs de Redes Sociales:**
-- Implementar autenticaciÛn OAuth 2.0
-- Publicar contenido en m˙ltiples plataformas
+**C2. Integraci√≥n de APIs de Redes Sociales:**
+- Implementar autenticaci√≥n OAuth 2.0
+- Publicar contenido en m√∫ltiples plataformas
 - Manejar rate limiting y reintentos
-- Cumplir con polÌticas de uso de APIs
+- Cumplir con pol√≠ticas de uso de APIs
 
 **C3. Arquitectura de Sistemas:**
-- DiseÒar arquitecturas escalables
+- Dise√±ar arquitecturas escalables
 - Implementar sistemas de colas (Redis + Bull/Celery)
 - Desarrollar APIs REST
 - Gestionar estado con bases de datos
@@ -89,53 +89,53 @@ Desarrollar sistemas de software completos que integran Large Language Models y 
 - Base de datos (PostgreSQL/MongoDB)
 - Deployment con Docker
 
-**C5. Buenas Pr·cticas:**
+**C5. Buenas Pr√°cticas:**
 - Versionado con Git
-- DocumentaciÛn tÈcnica
+- Documentaci√≥n t√©cnica
 - Seguridad (manejo de credenciales)
 - Testing y logging
 
 ### 3.3 Objetivos de Aprendizaje
 
-Al finalizar el curso, el estudiante ser· capaz de:
+Al finalizar el curso, el estudiante ser√° capaz de:
 
-1. **DiseÒar e implementar** sistemas que utilicen LLMs para transformaciÛn de contenido
-2. **Integrar** m˙ltiples APIs de terceros en un sistema cohesivo
+1. **Dise√±ar e implementar** sistemas que utilicen LLMs para transformaci√≥n de contenido
+2. **Integrar** m√∫ltiples APIs de terceros en un sistema cohesivo
 3. **Desarrollar** aplicaciones full-stack con arquitectura de microservicios
-4. **Aplicar** buenas pr·cticas de desarrollo, documentaciÛn y seguridad
-5. **Presentar** soluciones tÈcnicas de manera clara y profesional
+4. **Aplicar** buenas pr√°cticas de desarrollo, documentaci√≥n y seguridad
+5. **Presentar** soluciones t√©cnicas de manera clara y profesional
 
 ---
 
 ## 4. CONTENIDO DEL CURSO
 
-### Clase Introductoria - Jueves 7 nov
-**Tema:** PresentaciÛn del Proyecto
+### Clase 1 - Jueves 7 nov
+**Tema:** Presentaci√≥n del Proyecto
 
 **Contenido:**
-- IntroducciÛn al problema de publicaciÛn multi-red social
+- Introducci√≥n al problema de publicaci√≥n multi-red social
 - Arquitectura general del sistema
 - Componentes: LLM, APIs, Backend, Frontend
-- Calendario y sistema de evaluaciÛn
-- AsignaciÛn del proyecto
+- Calendario y sistema de evaluaci√≥n
+- Asignaci√≥n del proyecto
 
 **Material:**
 - PROYECTO-REDES-SOCIALES.md
 - TAREAS-Y-ENTREGABLES.md
-- Links a documentaciÛn de APIs
+- Links a documentaci√≥n de APIs
 
 **Sin entregables**
 
 ---
 
-### Clase 1 - Martes 12 nov
-**Tema:** InvestigaciÛn de APIs y SelecciÛn de Stack
+### Clase 2 - Martes 11 nov
+**Tema:** Investigaci√≥n de APIs y Selecci√≥n de Stack
 
 **Objetivos:**
 - Investigar y comparar APIs de redes sociales
 - Seleccionar modelo LLM apropiado
-- DiseÒar arquitectura del sistema
-- Definir stack tecnolÛgico
+- Dise√±ar arquitectura del sistema
+- Definir stack tecnol√≥gico
 
 **Contenido:**
 - Meta Business API (Facebook + Instagram)
@@ -144,50 +144,50 @@ Al finalizar el curso, el estudiante ser· capaz de:
 - WhatsApp Business API (Twilio vs Meta)
 - Comparativa de LLMs (GPT, Claude, Llama)
 - Arquitectura de microservicios
-- DiseÒo de base de datos
+- Dise√±o de base de datos
 
 **Entregables:**
-- **ExposiciÛn (40%):** PresentaciÛn de investigaciÛn (15 min)
-- **Documento (60%):** InvestigaciÛn completa (PDF/MD, 5-10 p·ginas)
-  - InvestigaciÛn de APIs (40%)
-  - Tabla de caracterÌsticas de redes (30%)
-  - SelecciÛn de LLM (20%)
+- **Exposici√≥n (40%):** Presentaci√≥n de investigaci√≥n (15 min)
+- **Documento (60%):** Investigaci√≥n completa (PDF/MD, 5-10 p√°ginas)
+  - Investigaci√≥n de APIs (40%)
+  - Tabla de caracter√≠sticas de redes (30%)
+  - Selecci√≥n de LLM (20%)
   - Propuesta de arquitectura (10%)
 
-**EvaluaciÛn:** 10% de la nota final
+**Evaluaci√≥n:** 10% de la nota final
 
 ---
 
-### Clase 2 - Jueves 14 nov
-**Tema:** Prototipo de AdaptaciÛn con LLM
+### Clase 3 - Jueves 14 nov
+**Tema:** Prototipo de Adaptaci√≥n con LLM
 
 **Objetivos:**
-- Implementar sistema de adaptaciÛn de contenido
-- DiseÒar prompts para cada red social
+- Implementar sistema de adaptaci√≥n de contenido
+- Dise√±ar prompts para cada red social
 - Validar transformaciones de texto
 
 **Contenido:**
 - Prompt engineering para redes sociales
-- IntegraciÛn con API de LLM elegida
-- DiseÒo de prompts system
-- ValidaciÛn de lÌmites de caracteres
+- Integraci√≥n con API de LLM elegida
+- Dise√±o de prompts system
+- Validaci√≥n de l√≠mites de caracteres
 - Manejo de errores del LLM
 
 **Entregables:**
-- **ExposiciÛn (40%):** Demo de adaptaciÛn (15 min)
-- **CÛdigo + Demo (60%):**
-  - Sistema de adaptaciÛn funcionando
-  - API/mÛdulo que transforma contenido para 5 redes
-  - DocumentaciÛn de prompts
+- **Exposici√≥n (40%):** Demo de adaptaci√≥n (15 min)
+- **C√≥digo + Demo (60%):**
+  - Sistema de adaptaci√≥n funcionando
+  - API/m√≥dulo que transforma contenido para 5 redes
+  - Documentaci√≥n de prompts
   - 3 casos de prueba demostrados
-  - Repositorio Git con cÛdigo
+  - Repositorio Git con c√≥digo
 
-**EvaluaciÛn:** 10% de la nota final
+**Evaluaci√≥n:** 10% de la nota final
 
 ---
 
-### Clase 3 - Martes 19 nov
-**Tema:** IntegraciÛn con APIs - Parte 1 (Meta + LinkedIn)
+### Clase 4 - Martes 18 nov
+**Tema:** Integraci√≥n con APIs - Parte 1 (Meta + LinkedIn)
 
 **Objetivos:**
 - Publicar contenido en Facebook
@@ -196,7 +196,7 @@ Al finalizar el curso, el estudiante ser· capaz de:
 - Implementar manejo robusto de errores
 
 **Contenido:**
-- Meta Graph API: autenticaciÛn y publicaciÛn
+- Meta Graph API: autenticaci√≥n y publicaci√≥n
 - Instagram: Container creation flow
 - LinkedIn Share API
 - OAuth 2.0 implementation
@@ -204,25 +204,25 @@ Al finalizar el curso, el estudiante ser· capaz de:
 - Logging estructurado
 
 **Entregables:**
-- **ExposiciÛn (40%):** Proceso de integraciÛn (15 min)
-- **CÛdigo + Demo (60%):**
-  - Facebook funcionando (mÌnimo 1 post real)
-  - Instagram funcionando (mÌnimo 1 post real)
-  - LinkedIn funcionando (mÌnimo 1 post real)
-  - Endpoints para publicaciÛn
+- **Exposici√≥n (40%):** Proceso de integraci√≥n (15 min)
+- **C√≥digo + Demo (60%):**
+  - Facebook funcionando (m√≠nimo 1 post real)
+  - Instagram funcionando (m√≠nimo 1 post real)
+  - LinkedIn funcionando (m√≠nimo 1 post real)
+  - Endpoints para publicaci√≥n
   - Manejo de errores implementado
   - Sistema de logs
-  - GuÌa de setup de apps
+  - Gu√≠a de setup de apps
 
-**EvaluaciÛn:** 15% de la nota final
+**Evaluaci√≥n:** 15% de la nota final
 
 ---
 
-### Clase 4 - Jueves 21 nov
-**Tema:** IntegraciÛn con APIs - Parte 2 (TikTok + WhatsApp) + Backend
+### Clase 5 - Jueves 20 nov
+**Tema:** Integraci√≥n con APIs - Parte 2 (TikTok + WhatsApp) + Backend
 
 **Objetivos:**
-- Completar integraciÛn de redes sociales
+- Completar integraci√≥n de redes sociales
 - Implementar backend central con BD
 - Sistema de colas para publicaciones
 - API REST completa
@@ -232,67 +232,65 @@ Al finalizar el curso, el estudiante ser· capaz de:
 - WhatsApp Business API (Twilio)
 - Base de datos (PostgreSQL/MongoDB)
 - Sistema de colas (Redis + Bull/Celery)
-- API REST para orquestaciÛn
+- API REST para orquestaci√≥n
 - Flujo end-to-end completo
 
 **Entregables:**
-- **ExposiciÛn (40%):** Arquitectura completa (20 min)
-- **CÛdigo + Demo (60%):**
-  - TikTok funcionando (mÌnimo caption)
-  - WhatsApp funcionando (mÌnimo 3 mensajes)
+- **Exposici√≥n (40%):** Arquitectura completa (20 min)
+- **C√≥digo + Demo (60%):**
+  - TikTok funcionando (m√≠nimo caption)
+  - WhatsApp funcionando (m√≠nimo 3 mensajes)
   - Base de datos con migrations
   - API REST implementada
   - Sistema de colas funcionando
-  - Demo de flujo completo: crear post í adaptar í publicar
-
-**EvaluaciÛn:** 15% de la nota final
+  - Demo de flujo completo: crear post ‚Üí adaptar ‚Üí publicar
 
 ---
 
-### Clase 5 - Martes 26 nov
+### Clase 6 - Martes 25 nov
 **Tema:** Portal Web y Sistema Completo
 
 **Objetivos:**
 - Implementar interfaz web
 - Integrar todos los componentes
 - Sistema funcionando end-to-end
-- PreparaciÛn para presentaciÛn final
+- Preparaci√≥n para presentaci√≥n final
 
 **Contenido:**
 - Frontend con React
-- P·ginas: Crear, Preview, Dashboard
-- IntegraciÛn frontend-backend
+- P√°ginas: Crear, Preview, Dashboard
+- Integraci√≥n frontend-backend
 - UX para preview de adaptaciones
 - Monitoreo de estado de publicaciones
 - Refinamiento del sistema completo
 
 **Entregables:**
-- **ExposiciÛn (40%):** Demo del portal (20 min)
-- **CÛdigo + Demo (60%):**
+- **Exposici√≥n (40%):** Demo del portal (20 min)
+- **C√≥digo + Demo (60%):**
   - Portal web completo y funcional
-  - 3 p·ginas implementadas
+  - 3 p√°ginas implementadas
   - Las 5 redes publicando correctamente
-  - DocumentaciÛn completa (README, API docs, SETUP)
+  - Documentaci√≥n completa (README, API docs, SETUP)
   - Video demo de 2-3 min
-  - Sistema listo para presentaciÛn final
+  - Sistema listo para presentaci√≥n final
 
-**EvaluaciÛn:** 10% de la nota final
+**Evaluaci√≥n:** 10% de la nota final
 
 ---
 
-### Clase 6 - Jueves 28 nov
-**PRESENTACI”N FINAL**
+### Clase 6 - Jueves 27 nov
+**PRESENTACI√ìN FINAL**
 
 **Formato:**
-- **PresentaciÛn tÈcnica (25 min):**
-  - IntroducciÛn al problema
-  - Arquitectura y tecnologÌas
+- **Presentaci√≥n t√©cnica (25 min):**
+  - Introducci√≥n al problema
+  - Arquitectura y tecnolog√≠as
   - Componente LLM
   - Integraciones con APIs
-  - Backend y orquestaciÛn
+  - Backend y orquestaci√≥n
 
 - **Demo en VIVO (20 min):**
-  - Crear publicaciÛn en portal
+  - Crear publicaci√≥n en portal
   - Generar adaptaciones con LLM
   - Publicar en las 5 redes
   - Verificar publicaciones en cada plataforma
@@ -303,118 +301,118 @@ Al finalizar el curso, el estudiante ser· capaz de:
 
 **Entregables:**
 - Sistema completo funcionando
-- Repositorio Git con todo el cÛdigo
-- DocumentaciÛn completa
+- Repositorio Git con todo el c√≥digo
+- Documentaci√≥n completa
 - Video demo (2-3 min)
-- Slides de presentaciÛn
+- Slides de presentaci√≥n
 
-**EvaluaciÛn:** 40% de la nota final
+**Evaluaci√≥n:** 40% de la nota final
 - Funcionalidad: 20%
-- Calidad cÛdigo: 5%
-- DocumentaciÛn: 5%
-- PresentaciÛn: 10%
+- Calidad c√≥digo: 5%
+- Documentaci√≥n: 5%
+- Presentaci√≥n: 10%
 
 ---
 
-## 5. METODOLOGÕA
+## 5. METODOLOG√çA
 
-### 5.1 Estrategias Did·cticas
+### 5.1 Estrategias Did√°cticas
 
 **Aprendizaje Basado en Proyectos:**
-- Proyecto ˙nico desarrollado incrementalmente
+- Proyecto √∫nico desarrollado incrementalmente
 - Cada clase construye sobre la anterior
 - Entregables tangibles semanalmente
 
 **Learning by Doing:**
-- 60% del tiempo en implementaciÛn
+- 60% del tiempo en implementaci√≥n
 - Demos en vivo obligatorias
-- ExperimentaciÛn con tecnologÌas reales
+- Experimentaci√≥n con tecnolog√≠as reales
 
 **Peer Learning:**
 - Discusiones grupales de soluciones
 - Compartir challenges y soluciones
-- RetroalimentaciÛn constructiva
+- Retroalimentaci√≥n constructiva
 
 ### 5.2 Estructura de Clases
 
 **Antes de clase:**
 - Lectura de material asignado
-- InvestigaciÛn previa
+- Investigaci√≥n previa
 - Setup de ambiente
 
 **Durante clase:**
 - Exposiciones de estudiantes (40%)
 - Demos en vivo (60%)
-- DiscusiÛn de challenges
-- RetroalimentaciÛn del docente
+- Discusi√≥n de challenges
+- Retroalimentaci√≥n del docente
 
-**DespuÈs de clase:**
+**Despu√©s de clase:**
 - Desarrollo del siguiente entregable
-- Consultas asÌncronas
-- DocumentaciÛn del progreso
+- Consultas as√≠ncronas
+- Documentaci√≥n del progreso
 
 ---
 
-## 6. EVALUACI”N
+## 6. EVALUACI√ìN
 
-### 6.1 Sistema de CalificaciÛn
+### 6.1 Sistema de Calificaci√≥n
 
 **Clases 1-5 (60% total):**
 
 | Clase | Peso | Componentes |
 |-------|------|-------------|
-| Clase 1 | 10% | ExposiciÛn (4%) + InvestigaciÛn (6%) |
-| Clase 2 | 10% | ExposiciÛn (4%) + CÛdigo/Demo (6%) |
-| Clase 3 | 15% | ExposiciÛn (6%) + CÛdigo/Demo (9%) |
-| Clase 4 | 15% | ExposiciÛn (6%) + CÛdigo/Demo (9%) |
-| Clase 5 | 10% | ExposiciÛn (4%) + CÛdigo/Demo (6%) |
+| Clase 1 | 10% | Exposici√≥n (4%) + Investigaci√≥n (6%) |
+| Clase 2 | 10% | Exposici√≥n (4%) + C√≥digo/Demo (6%) |
+| Clase 3 | 15% | Exposici√≥n (6%) + C√≥digo/Demo (9%) |
+| Clase 4 | 15% | Exposici√≥n (6%) + C√≥digo/Demo (9%) |
+| Clase 5 | 10% | Exposici√≥n (4%) + C√≥digo/Demo (6%) |
 
-**PresentaciÛn Final (40% total):**
+**Presentaci√≥n Final (40% total):**
 
 | Componente | Peso | Criterios |
 |------------|------|-----------|
 | Funcionalidad | 20% | Sistema completo funcionando, las 5 redes publicando |
-| Calidad cÛdigo | 5% | CÛdigo limpio, organizado, buenas pr·cticas |
-| DocumentaciÛn | 5% | README, API docs, guÌas de setup completas |
-| PresentaciÛn | 10% | Claridad, estructura, demo exitoso, Q&A |
+| Calidad c√≥digo | 5% | C√≥digo limpio, organizado, buenas pr√°cticas |
+| Documentaci√≥n | 5% | README, API docs, gu√≠as de setup completas |
+| Presentaci√≥n | 10% | Claridad, estructura, demo exitoso, Q&A |
 
-### 6.2 Criterios de EvaluaciÛn por Clase
+### 6.2 Criterios de Evaluaci√≥n por Clase
 
-**ExposiciÛn (40% de cada clase):**
-- Claridad y organizaciÛn: 15%
-- Profundidad tÈcnica: 15%
+**Exposici√≥n (40% de cada clase):**
+- Claridad y organizaci√≥n: 15%
+- Profundidad t√©cnica: 15%
 - Manejo de preguntas: 10%
 
-**CÛdigo/Demo (60% de cada clase):**
+**C√≥digo/Demo (60% de cada clase):**
 - Funcionalidad correcta: 30%
-- Calidad del cÛdigo: 15%
+- Calidad del c√≥digo: 15%
 - Demo en vivo exitoso: 10%
-- DocumentaciÛn: 5%
+- Documentaci√≥n: 5%
 
-### 6.3 Escala de CalificaciÛn
+### 6.3 Escala de Calificaci√≥n
 
 - **90-100:** Excelente - Supera expectativas
 - **80-89:** Muy bueno - Cumple todas las expectativas
-- **70-79:** Bueno - Cumple expectativas b·sicas
-- **60-69:** Suficiente - Cumple mÌnimos
+- **70-79:** Bueno - Cumple expectativas b√°sicas
+- **60-69:** Suficiente - Cumple m√≠nimos
 - **<60:** Insuficiente - No cumple requisitos
 
-### 6.4 PolÌticas de Entrega
+### 6.4 Pol√≠ticas de Entrega
 
 **Puntualidad:**
-- Las exposiciones son en el horario de clase (no hay prÛrroga)
-- El cÛdigo debe estar en Git antes de la clase
+- Las exposiciones son en el horario de clase (no hay pr√≥rroga)
+- El c√≥digo debe estar en Git antes de la clase
 - Demos deben ejecutarse en tiempo real
 
-**Integridad AcadÈmica:**
+**Integridad Acad√©mica:**
 - Trabajo individual obligatorio
-- Se permite consultar documentaciÛn y recursos
-- Copiar cÛdigo de otros estudiantes = 0 puntos
-- Uso de IA para generar cÛdigo debe ser documentado
+- Se permite consultar documentaci√≥n y recursos
+- Copiar c√≥digo de otros estudiantes = 0 puntos
+- Uso de IA para generar c√≥digo debe ser documentado
 
 **Asistencia:**
 - Asistencia obligatoria a todas las clases
-- M·s de 2 faltas = reprobaciÛn autom·tica
+- M√°s de 2 faltas = reprobaci√≥n autom√°tica
 - Las exposiciones no se pueden recuperar
 
 ---
@@ -423,19 +421,19 @@ Al finalizar el curso, el estudiante ser· capaz de:
 
 ### 7.1 Recursos Obligatorios
 
-**DocumentaciÛn del Proyecto:**
+**Documentaci√≥n del Proyecto:**
 - PROYECTO-REDES-SOCIALES.md
 - TAREAS-Y-ENTREGABLES.md
 - Material en `/lectures`
 
-**DocumentaciÛn de APIs:**
+**Documentaci√≥n de APIs:**
 - Meta Graph API: https://developers.facebook.com/docs/graph-api
 - LinkedIn API: https://docs.microsoft.com/en-us/linkedin/
 - TikTok API: https://developers.tiktok.com/
 - WhatsApp Business: https://developers.facebook.com/docs/whatsapp
 - Twilio: https://www.twilio.com/docs/whatsapp
 
-**DocumentaciÛn de LLMs:**
+**Documentaci√≥n de LLMs:**
 - OpenAI: https://platform.openai.com/docs
 - Anthropic: https://docs.anthropic.com
 - Ollama: https://ollama.ai
@@ -452,12 +450,12 @@ Al finalizar el curso, el estudiante ser· capaz de:
 - GitHub/GitLab (gratuito)
 - Meta for Developers (gratuito)
 - LinkedIn Developers (gratuito)
-- OpenAI (de pago, crÈditos gratis iniciales)
+- OpenAI (de pago, cr√©ditos gratis iniciales)
 - Twilio (sandbox gratuito)
 
-### 7.3 BibliografÌa Recomendada
+### 7.3 Bibliograf√≠a Recomendada
 
-**ArtÌculos AcadÈmicos:**
+**Art√≠culos Acad√©micos:**
 - Brown et al. (2020) - "Language Models are Few-Shot Learners"
 - Lewis et al. (2020) - "Retrieval-Augmented Generation"
 - Wei et al. (2022) - "Chain-of-Thought Prompting"
@@ -474,31 +472,31 @@ Al finalizar el curso, el estudiante ser· capaz de:
 
 ---
 
-## 8. POLÕTICAS DEL CURSO
+## 8. POL√çTICAS DEL CURSO
 
-### 8.1 CÛdigo de Conducta
+### 8.1 C√≥digo de Conducta
 
 **Respeto:**
 - Trato respetuoso entre todos
 - Feedback constructivo en discusiones
-- No discriminaciÛn de ning˙n tipo
+- No discriminaci√≥n de ning√∫n tipo
 
 **Integridad:**
 - Trabajo individual honesto
 - Citar fuentes apropiadamente
-- No plagio de cÛdigo
+- No plagio de c√≥digo
 
 **Profesionalismo:**
 - Puntualidad en entregas y asistencia
-- ComunicaciÛn clara y oportuna
-- PreparaciÛn adecuada para clases
+- Comunicaci√≥n clara y oportuna
+- Preparaci√≥n adecuada para clases
 
-### 8.2 ComunicaciÛn
+### 8.2 Comunicaci√≥n
 
 **Canales:**
 - Email: [Definir]
 - Horario de consultas: [Definir]
-- [Plataforma de comunicaciÛn]: [Definir]
+- [Plataforma de comunicaci√≥n]: [Definir]
 
 **Tiempos de respuesta:**
 - Email: 24-48 horas
@@ -506,56 +504,16 @@ Al finalizar el curso, el estudiante ser· capaz de:
 
 ### 8.3 Casos Especiales
 
-**Problemas tÈcnicos:**
+**Problemas t√©cnicos:**
 - Si una API no es accesible: Documentar intento y proponer alternativa
 - Si el LLM falla: Tener plan B (screenshots, respuestas pre-generadas)
 - Si la demo falla: Tener video/screenshots de respaldo
 
 **Situaciones especiales:**
 - Problemas de salud: Contactar inmediatamente
-- Emergencias: EvaluaciÛn caso por caso
+- Emergencias: Evaluaci√≥n caso por caso
 - Problemas de acceso a herramientas: Solicitar ayuda temprano
 
 ---
 
-## 9. CALENDARIO DETALLADO
-
-| Semana | Fecha | DÌa | Actividad | Entregable |
-|--------|-------|-----|-----------|------------|
-| 1 | 07 nov | J | Clase Introductoria | - |
-| 2 | 12 nov | M | Clase 1: InvestigaciÛn | Documento investigaciÛn |
-| 2 | 14 nov | J | Clase 2: Prototipo LLM | Sistema adaptaciÛn |
-| 3 | 19 nov | M | Clase 3: APIs Meta+LI | 3 redes funcionando |
-| 3 | 21 nov | J | Clase 4: TikTok+WA+BE | Sistema end-to-end |
-| 4 | 26 nov | M | Clase 5: Portal Web | Sistema completo |
-| 4 | 28 nov | J | PresentaciÛn Final | Proyecto + docs |
-
----
-
-## 10. RESULTADOS DE APRENDIZAJE ESPERADOS
-
-Al completar exitosamente este curso, los estudiantes habr·n:
-
-1. **Desarrollado** un sistema full-stack completo con arquitectura de microservicios
-2. **Integrado** al menos 4 APIs de terceros (Meta, LinkedIn, WhatsApp, y TikTok o alternativa)
-3. **Implementado** un sistema de adaptaciÛn de contenido usando LLM
-4. **Aplicado** buenas pr·cticas de desarrollo (Git, documentaciÛn, seguridad)
-5. **Demostrado** capacidad de presentar soluciones tÈcnicas profesionalmente
-
----
-
-## 11. CAMBIOS AL SYLLABUS
-
-Este syllabus puede ser modificado durante el curso si es necesario. Cualquier cambio ser· comunicado oportunamente a los estudiantes.
-
-**⁄ltima actualizaciÛn:** 7 de noviembre de 2025
-
----
-
-**Firma del Docente:** ___________________
-
-**Fecha:** ___________________
-
----
-
-°Bienvenidos al curso! =Ä
+¬°Bienvenidos al curso! üöÄ
