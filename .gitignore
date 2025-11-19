@@ -39,3 +39,4 @@ venv/
 # Instructor-only materials
 README.instructores.md
 lectures/**/instructor-guide.md
+*-DOCENTE.md
