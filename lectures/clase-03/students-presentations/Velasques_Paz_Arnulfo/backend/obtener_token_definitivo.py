@@ -5,7 +5,7 @@ import requests
 USER_TOKEN =""
 
 # 2. PEGA AQUÍ EL ID DE TU PÁGINA (Ya lo tienes en tu .env)
-PAGE_ID = "818138381393500" 
+PAGE_ID = "" 
 
 print("--- CANJEANDO TOKEN DE USUARIO POR TOKEN DE PÁGINA ---")
 
